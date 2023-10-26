@@ -1,0 +1,311 @@
+.nav-link:hover, .dropdown-item:hover{
+color: orange !important;
+font-weight: bold;
+}
+.pad0{
+    background-color: #ed6a37;
+    color: white;
+    padding: 14px 41px;
+    border: none;
+    border-radius: 12px;
+}
+.food, .bestfood{
+    color: #ed6a37;
+}
+.mobile{
+width: 70%;
+}
+.food1{
+    font-size: 4em;
+    margin: 40px 0px;
+}
+.food2{ 
+    font-size: 3em;
+    margin: 40px 0px;
+}
+.pad1{
+    padding: 40px;
+}
+.card-body.pad2{
+    padding: 1rem 2rem;
+}
+.mar1{
+    margin-right: 40px;
+}
+.mar2{
+    margin-bottom: 40px !important;
+}
+.mar3{
+    margin-top: 40px !important;
+}
+.bestfood{
+font-size: large;
+background-color: #f0e1dc;
+display: inline;
+padding: 10px 24px;
+}
+.appdo{
+    margin: 20px 0px ;
+}
+.appdo1{
+    margin: 0px 0px 25px 22px;
+}
+.play-new{
+    height: 50px;
+    width: 50px;
+    border-radius:50%; 
+    /* background-color: red; */
+    border: 1px solid #ed6a37;
+}
+.fa-regular{
+    font-size: 45px;
+    color: #ed6a37;
+}
+.video{
+    font-size: large;
+    margin-left: 35px;
+}
+.bggradient{
+    background-image: linear-gradient(#eddcd6, #ffffff 20%);
+}
+.foodicon{
+    height: 100px;
+    width: 100px;
+    background-color: #eedbd4;
+    border-radius: 50%;
+}
+
+.foodready{
+    height: 100px;
+    width: 100px;
+    background-color: #eedbd4;
+    border-radius: 50%;
+}
+
+.apples{
+    border-radius: 18px !important;
+}.bgphone{
+    background-color: #fdefeb;
+}
+.easy{
+    padding: 80px !important;
+}
+.sean1{
+    background-color: #f4e9e9;
+}
+.sean2{
+    background-color: #fefbf5;
+    padding: 1.25rem !important;
+}
+.sean3{
+    background-color: #fbf6f2 ;
+    padding: 25px !important;
+}
+.sean4{
+    background-color: #f4e9e9;
+    padding: 16px;
+}
+.sean5{
+    background-color: #fefbf5;
+}
+.sean6{
+    background-color: #fbf6f2 ;
+    padding: 6px;
+}
+.sean11{
+    background-image: linear-gradient(#e4ccc5, #f7f0f0);
+ }
+ .sean22{
+    background-image: linear-gradient(#eddfda, #fdfaf5);
+ }
+ .sean33{
+    background-image: linear-gradient(#edddd7, #fcf9f6);
+ }
+.sean44{
+    background-image: linear-gradient(#e4ccc5, #f7f0f0);
+ }
+ .sean55{
+    background-image: linear-gradient(#eddfda, #fdfaf5);
+ }
+ .sean66{
+    background-image: linear-gradient(#edddd7, #fcf9f6);
+ }
+ .food11{
+     font-size: large;
+     color: #ed6a37;
+ }
+ .chef{
+    width: 80%;
+ }
+ .chef2{
+    margin: 40px 0px;
+ }
+ .checked {
+    color: orange;
+  }
+  .pod {
+    padding: 16px 7px!important;
+}
+.Bgfooter{
+    background-color: #f6b49b;
+}
+.Copyright{
+    border-top: 2px solid white;
+}
+.pot{
+    padding-top: 80px !important;
+}
+.social-logo1{
+    display: flex;
+    flex-wrap: nowrap !important;
+    width: 29% !important;
+}
+@media (min-width:210px) and (max-width:309px) {
+    .food1 {
+        font-size: 2em;
+        margin: 40px 0px;
+    }
+    .hea1{
+        margin-top: 40px !important;
+    }
+    .chef{
+        display: none;
+    }
+    .card-body.pad2 {
+        padding: 1rem 0rem;
+    }
+    .mar1 {
+        margin-right: 10px !important;
+    }
+    .fa-regular {
+        font-size: 40px;
+    }
+    .pad0{
+        padding: 9px 20px;
+        width: 71%;
+    }
+    .video{margin-left: 10px;}
+    .easy {
+        padding: 34px !important;
+    }
+    .chef2{   
+        display: flex;
+       flex-direction: column-reverse;
+   }
+   .food1, .food2{ font-size: 35px !important; }
+   .row.social-logo1{
+    margin-left: 10px;
+}
+.testim{
+    text-align: center;
+}
+} 
+/* media queries are going to be here  */
+
+@media screen and ( min-width:310px) and (max-width: 470px){
+    .bestfood{ padding:10px 10px !important;}
+    .food1, .food2{ 
+        font-size: 35px !important; 
+    margin:0px;
+    }
+    .hea1{
+        margin-top: 40px !important;
+    }
+    .chef{
+        display: none;
+    }
+    .food2{
+        margin:0px;
+    }
+    .testim{
+        text-align: center;
+    }
+    .pad3 {
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    .mar1 { margin-right: 1rem!important; }
+    .fa-regular { font-size: 42px;}
+    .video {
+        font-size: larger;
+        margin-left: 23px;
+    }
+    .easy {
+        padding: 34px !important;
+    }
+    .row.social-logo1{
+        margin-left: 25px;
+    }
+    .chef2{   
+         display: flex;
+        flex-direction: column-reverse;
+    }
+    .pod3{
+            padding: 1rem !important;
+        }
+    .pad0{
+        padding: 9px 9px;
+    }
+}
+/* media queries are going to be here  */
+@media ( min-width:471px) and (max-width: 700px){
+.row.social-logo1{
+    display: flex;
+    width: 20% !important;
+    margin-left: 80px;
+}
+.chef2{   
+    display: flex;
+   flex-direction: column-reverse;
+}
+}
+@media ( min-width:700px) and (max-width: 900px){
+    .food1, .food2 {
+        font-size: 2em;
+    }
+    .pad0{
+        min-width: fit-content;
+    }
+    .mar3 {
+        margin-top: 40px !important;
+    }
+    .mobile{
+        width: 100%;
+        }
+    .easy {
+            padding: 20px !important;
+        }
+    .chef{
+            width: 100%;
+         }
+     .row.chef2{
+         margin-top: 40px;
+     }    
+         
+}
+@media ( min-width:901px) and (max-width: 1200px){
+    .food1, .food2 {
+        font-size: 2em;
+    } 
+    .mobile{
+        width: 100%;
+        }
+        .pad0{
+            min-width: fit-content;
+        }
+        .easy {
+            padding: 20px !important;
+        }
+        .chef{
+            width: 100%;
+         }
+     .row.chef2{
+         margin-top: 40px;
+     } 
+     .mar3 {
+        margin-top: 40px !important;
+    }
+    .card-body.pad2 {
+        padding: 1rem 0rem;
+    }
+}
